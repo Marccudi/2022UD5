@@ -12,7 +12,8 @@ public class mainApp {
 			String a = JOptionPane.showInputDialog("Precio de la venta numero " + i);
 			venta += Double.parseDouble(a);
 		}
-		System.out.println("El total de las ventas es de: " + venta);
+		double precioFinal=venta+(venta*0.21);
+		System.out.println("El total de las ventas es de: " + precioFinal);
 	}
 
 }
